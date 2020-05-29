@@ -1,0 +1,8 @@
+1. compile go program using ./buildGOLinux.sh
+2. siapkan Dockerfile
+3. ./buildDockerImage.sh
+4. ./cleanDocker.sh
+5. ./runDocker.sh   => ini akan menjalankan docker dalam daemond mode karena -d dan routing port 8080 ke 8080
+6. akses melalui http://localhost:8010/calculate/sum/2/3
+7. untuk melihat image yang jalan => docker ps -a
+8. untuk meliaht log => docker logs [CONTAINER ID]
