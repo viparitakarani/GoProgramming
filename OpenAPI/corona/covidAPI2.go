@@ -207,7 +207,7 @@ func main() {
 
 	var headers [][]string
 	header1 := []string{ "x-rapidapi-host", "covid-19-fastest-update.p.rapidapi.com" }
-	header2 := []string{ "x-rapidapi-key", "2d6348677bmsh5d48dfc1a115e5ep159c37jsn9a08525aa294" }
+	header2 := []string{ "x-rapidapi-key", "<put your rapidapi key here>" }
 	//header3 := []string{ "useQueryString", "true"}
 
 

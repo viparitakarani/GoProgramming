@@ -111,7 +111,7 @@ func main() {
 
 	var headers [][]string
     header1 := []string{ "x-rapidapi-host", "finnhub-realtime-stock-price.p.rapidapi.com" }
-    header2 := []string{ "x-rapidapi-key", "2d6348677bmsh5d48dfc1a115e5ep159c37jsn9a08525aa294" }
+    header2 := []string{ "x-rapidapi-key", "<put your rapidapi key here>" }
     headers = append(headers,header1)
     headers = append(headers,header2)
 
